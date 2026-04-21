@@ -1,0 +1,6 @@
+"""Jhostyn Andrade Ruta3
+9/4/2026
+Actividad 1"""
+#Mi primer comentario
+print(15%4)
+
