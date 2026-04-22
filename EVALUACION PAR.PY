@@ -38,3 +38,27 @@ print(len(frase))
 print("Python" in frase)
 frase_nueva=frase.replace("Tecnología", "Programación")
 print(frase_nueva.split())
+
+# ======== PARTE C ============
+# Parte 1
+nombre=input("Nombre: ")
+apellido=input("Apellido: ")
+pais=input("País: ")
+ancho_pared=float(input("Ancho de la pared: "))
+alto_pared=float(input("Alto de la pared: "))
+precio_porm2=float(input("Precio por metro cuadrado: "))
+area_pared = ancho_pared * alto_pared
+costo_total = area_pared * precio_porm2
+nombre_completo = f"{nombre} {apellido}"
+# 2
+print("\n- REPORTE FINAL -")
+print(f"Nombre completo: {nombre_completo}") 
+print(f"País: {pais}")
+print(f"Área calculada: {area_pared} m2") 
+print(f"Costo total estimado: ${costo_total}") 
+
+# 3
+print(f"Nombre en mayúsculas: {nombre_completo.upper()}") 
+print(f"Longitud del nombre: {len(nombre_completo)}") 
+print(f"¿Contiene la letra ?: {'a' in nombre_completo.lower()}") 
+print(f"¿El costo es mayor a 100?: {costo_total > 100}") 
