@@ -60,5 +60,5 @@ print(f"Costo total estimado: ${costo_total}")
 # 3
 print(f"Nombre en mayúsculas: {nombre_completo.upper()}") 
 print(f"Longitud del nombre: {len(nombre_completo)}") 
-print(f"¿Contiene la letra ?: {'a' in nombre_completo.lower()}") 
+print(f"¿Contiene la letra ?: {"a" in nombre_completo.lower()}") 
 print(f"¿El costo es mayor a 100?: {costo_total > 100}") 
