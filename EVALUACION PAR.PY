@@ -15,7 +15,7 @@
 # a) La diferencia es que print() muestra datos, refleja el código impreso e input() el cual solicita datos al usuario para guardarlos en una variable.
 # b) Puede darle error al no convertirlo a número float, porque input() siempre recibe texto str, y si se usa directamente para un cálculo es necesario la conversión a número.
 # c) / es división decimal, // es división entera (sin decimales) y % es el residuo de la división.
-# d) import sys; print(sys.version).
+# d) import sys; print(sys.version). o en Bash: python --version
 # e) help("keywords").
 
 #======== PARTE B ============
