@@ -4,3 +4,4 @@ Actividad 1"""
 #Mi primer comentario
 print(15%4)
 
+python --version
