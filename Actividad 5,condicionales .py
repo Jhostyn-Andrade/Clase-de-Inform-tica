@@ -25,7 +25,7 @@ else:
         else:
             print("el numero es impar negativo")"""
 
-numero=int(input("ingrese un numero: "))
+"""numero=int(input("ingrese un numero: "))
 if numero>0 and numero%2==0:
      print("el numero es par positivio")
 elif numero>0 and numero%2==1:
@@ -34,4 +34,7 @@ elif numero<0 and numero%2==0:
      print("el numero es par negativo")
 elif numero<0 and numero%2==1:
      print("el numero es impar negativo")
-else: print("el numero es cero")
+else: print("el numero es cero")"""
+
+numero=int(input("ingrese un numero: "))
+print("el numero es cero" if numero==0 else print("el numero es par positivo") if numero>0 and numero%2==0 else print("el numero es impar positivo") if numero>0 and numero%2==1 else print("el numero es par negativo") if numero<0 and numero%2==0 else print("el numero es impar negativo"))
