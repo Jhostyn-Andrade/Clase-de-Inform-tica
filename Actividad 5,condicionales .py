@@ -38,3 +38,5 @@ else: print("el numero es cero")"""
 
 numero=int(input("ingrese un numero: "))
 print("el numero es cero" if numero==0 else print("el numero es par positivo") if numero>0 and numero%2==0 else print("el numero es impar positivo") if numero>0 and numero%2==1 else print("el numero es par negativo") if numero<0 and numero%2==0 else print("el numero es impar negativo"))
+
+
