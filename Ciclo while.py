@@ -31,9 +31,33 @@ numers=[0,1,2,3,4,5]
 for iterador in numers:
     print(f"Su itererador es {iterador}")
 
-notas=[8,7,9,10]
+"""notas=[8,7,9,10]
 suma=0
 for nota in notas:
     suma=suma+nota
 promedio=suma/len(notas)
-print(promedio)
+print(promedio)"""
+
+notas=[8,7,9,10]
+suma=0
+contador=0
+for nota in notas:
+    suma=suma+nota
+    contador+=1
+promedio=suma/contador
+print(f"el promedio de las notas es: {promedio}")
+
+palabra="P y t h o n"
+for iterador in palabra:
+    print(iterador)
+
+
+palabra=input("Ingrese una palabra:").lower()
+vocales=0
+for letra in palabra:
+    if letra=="a" or letra=="e" or letra=="i" or letra=="o" or letra=="u":
+        vocales=vocales+1
+print(f"la cantidad de vocales es{vocales}")
+print(f"El total de letras es: {len(palabra)}")
+print(f"La cantidad de consonantes es: {len(palabra)-vocales}")
+Palabra=input("Ingrese una palabra:").lower()
