@@ -27,9 +27,9 @@ while opcion!="c":
         print("funcion invalida")"""  
 
 #CICLO FOR
-numers=[0,1,2,3,4,5]
+"""numers=[0,1,2,3,4,5]
 for iterador in numers:
-    print(f"Su itererador es {iterador}")
+    print(f"Su itererador es {iterador}")"""
 
 """notas=[8,7,9,10]
 suma=0
@@ -38,7 +38,7 @@ for nota in notas:
 promedio=suma/len(notas)
 print(promedio)"""
 
-notas=[8,7,9,10]
+"""notas=[8,7,9,10]
 suma=0
 contador=0
 for nota in notas:
@@ -59,5 +59,9 @@ for letra in palabra:
         vocales=vocales+1
 print(f"la cantidad de vocales es{vocales}")
 print(f"El total de letras es: {len(palabra)}")
-print(f"La cantidad de consonantes es: {len(palabra)-vocales}")
-Palabra=input("Ingrese una palabra:").lower()
+print(f"La cantidad de consonantes es: {len(palabra)-vocales}")"""
+
+#FOR EN UN SET
+it_companies={"Facebook","Google","Apple","Amazon","Facebook"}
+for companies in it_companies:
+    print(companies)
