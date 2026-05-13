@@ -66,7 +66,7 @@ print(f"La cantidad de consonantes es: {len(palabra)-vocales}")"""
 for companies in it_companies:
     print(companies)"""
 
-numbers=[5,2,5,6,7,8,2,3]
+"""numbers=[5,2,5,6,7,8,2,3]
 for number in numbers:
     if number==3:
         print("Numero encontrado")
@@ -80,4 +80,11 @@ for i in list:
     if i==numbers:
         print("Numero encontrado")
         break  
-print("Numero no encontrado")
+print("Numero no encontrado")"""
+cedula=input("Ingrese su n. de cédula")
+cedula_limpia=""
+for caracter in cedula:
+    if caracter=="-"or caracter==" ":
+        continue
+    cedula_limpia=cedula_limpia+caracter
+print(cedula_limpia)
