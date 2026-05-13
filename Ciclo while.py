@@ -81,7 +81,7 @@ for i in list:
         print("Numero encontrado")
         break  
 print("Numero no encontrado")"""
-cedula=input("Ingrese su n. de cédula")
+cedula=input("Ingrese su n. de cédula: ")
 cedula_limpia=""
 for caracter in cedula:
     if caracter=="-"or caracter==" ":
