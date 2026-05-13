@@ -62,6 +62,22 @@ print(f"El total de letras es: {len(palabra)}")
 print(f"La cantidad de consonantes es: {len(palabra)-vocales}")"""
 
 #FOR EN UN SET
-it_companies={"Facebook","Google","Apple","Amazon","Facebook"}
+"""it_companies={"Facebook","Google","Apple","Amazon","Facebook"}
 for companies in it_companies:
-    print(companies)
+    print(companies)"""
+
+numbers=[5,2,5,6,7,8,2,3]
+for number in numbers:
+    if number==3:
+        print("Numero encontrado")
+        break
+else:
+    print("Numero no encontrado")
+
+list=[5,2,5,6,7,8,2,3]
+numbers=float(input("Ingrese un numero: "))
+for i in list:
+    if i==numbers:
+        print("Numero encontrado")
+        break  
+print("Numero no encontrado")
