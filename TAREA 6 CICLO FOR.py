@@ -13,6 +13,6 @@ promedio=suma/len(notas)
 print(f"La suma total de las notas es: {suma}")
 print(f"El promedio del curso es: {promedio}")
 print(f"Aprobaron: {aprobaron} estudiantes")
-print(f"Reprobaron {reprobaron} estudiantes")
+print(f"Reprobaron {reprobaron} estudiantes")"""
 
 
