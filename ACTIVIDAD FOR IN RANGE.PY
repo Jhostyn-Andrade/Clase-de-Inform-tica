@@ -1,4 +1,4 @@
-suma=0
+"""suma=0
 while True:
     i=int(input("Ingrese cuantas notas quere:"))
     if i>=2:
@@ -9,4 +9,10 @@ while True:
     else:
             print(f"No se puede sacar el promedio de {i} nota")
 promedio=suma/i
-print(promedio)
+print(promedio) """
+numero=int(input("Ingrese un número: "))
+limiteinferior=int(input("Ingrese el limite inferior: "))
+limitesuperior=int(input("Ingrese el limite superior: "))
+for number in range(limiteinferior, limitesuperior+1):
+    resultado=numero*number
+    print(f"{numero} x {number} = {resultado}")
