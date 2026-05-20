@@ -1,3 +1,4 @@
+#FOR CON INICIO
 """suma=0
 while True:
     i=int(input("Ingrese cuantas notas quere:"))
@@ -10,9 +11,18 @@ while True:
             print(f"No se puede sacar el promedio de {i} nota")
 promedio=suma/i
 print(promedio) """
-numero=int(input("Ingrese un número: "))
+#fOR IN RANGE INICIO Y FIN
+"""numero=int(input("Ingrese un número: "))
 limiteinferior=int(input("Ingrese el limite inferior: "))
 limitesuperior=int(input("Ingrese el limite superior: "))
 for number in range(limiteinferior, limitesuperior+1):
     resultado=numero*number
-    print(f"{numero} x {number} = {resultado}")
+    print(f"{numero} x {number} = {resultado}")"""
+suma=0
+cantidad=0
+notas=[5,8,9,7,10]
+for i in range(1,4):
+    suma=suma+notas[i]
+    cantidad=cantidad+1
+promedio=suma/cantidad
+print(f"El promedio de las notas es: {promedio}") 
