@@ -18,11 +18,16 @@ limitesuperior=int(input("Ingrese el limite superior: "))
 for number in range(limiteinferior, limitesuperior+1):
     resultado=numero*number
     print(f"{numero} x {number} = {resultado}")"""
-suma=0
+"""suma=0
 cantidad=0
 notas=[5,8,9,7,10]
 for i in range(1,4):
     suma=suma+notas[i]
     cantidad=cantidad+1
 promedio=suma/cantidad
-print(f"El promedio de las notas es: {promedio}") 
+print(f"El promedio de las notas es: {promedio}") """
+# Programa para generar una tabla de multiplicar
+# usando solo los factores pares: 2, 4, 6, 8 y 10
+numero = int(input("Ingrese un número: "))
+for x in range(2,11,2):
+    print(f"{numero}x{x} = {numero*2} ")
