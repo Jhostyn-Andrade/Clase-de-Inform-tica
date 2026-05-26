@@ -5,7 +5,7 @@
     full_name=first_name+space+last_name
     print(full_name)
 generate_fulll_name()"""
-def mostrar_intruccion():
+"""def mostrar_intruccion():
     print("---Instrucciones del Programa---")
     print("1- INGRESE SU NOMBRE")
     print("2- Ingresa tu edad.")
@@ -36,4 +36,36 @@ if dato == "ayuda":
 numero1 = int(dato)
 numero2 = int(input("Ingrese el segundo número: "))
 suma = numero1 + numero2
-print(f"La suma es: {suma}")
+print(f"La suma es: {suma}")"""
+
+def saludar(nombre):
+    print(f"Hola {nombre}") 
+saludar("Jhostyn")
+
+def mostrar_estudiante(nombre, curso):
+    print('=== DATOS DEL ESTUDIANTE ===')
+    print(f'Nombre: {nombre}')
+    print(f'Curso: {curso}')
+nombre_usuario = input('Ingrese el nombre del estudiante: ')
+curso_usuario = input('Ingrese el curso del estudiante: ')
+mostrar_estudiante(nombre_usuario, curso_usuario)
+
+# Actividad
+def mostrar_estudiante(nombre, curso):
+    print('=== DATOS DEL ESTUDIANTE ===')
+    print(f'Nombre: {nombre}')
+    print(f'Curso: {curso}')
+def mensaje_final():
+    print("Fin del programa")
+
+total_estudiantes = int(input('¿Cuántos estudiantes desea ingresar?: '))
+contador = 0
+
+while contador < total_estudiantes:
+    print(f"Este es el registro N{contador+1} de estudiante")
+    nombre_usuario = input("Ingrese el nombre del estudiante: ")
+    curso_usuario = input("Ingrese el curso del estudiante: ")
+    mostrar_estudiante(nombre_usuario, curso_usuario)
+    contador += 1
+
+mensaje_final()
